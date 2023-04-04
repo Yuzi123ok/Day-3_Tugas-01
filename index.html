@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,900;1,100;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title></title>
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="wrapNav">
+        <img src="./assets/images/logo.png" alt="logo" />
+        <nav>
+          <ul>
+            <li><a href="https://day-1-tugas-02.vercel.app/">Home</a></li>
+            <li><a href="#">My Project</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div>
+        <button type="submit" class="btnContact">
+          <a href="#">Contact Me</a>
+        </button>
+      </div>
+    </div>
+    <div>
+      <form id="form-email" action="mailto:fauzi.mf193@gmail.com" method="post">
+        <h2>GET IN TOUCH</h2>
+        <div class="grup">
+          <label class="label" for="fname">Name</label>
+          <input class="text" type="text" id="name" />
+        </div>
+        <div class="grup">
+          <label class="label" for="email">Email</label>
+          <input class="text" type="email" id="email" />
+        </div>
+        <div class="grup">
+          <label class="label" for="phone">Number Phone</label>
+          <input class="text" type="tel" id="phoneNumber" />
+        </div>
+        <div class="grup">
+          <label class="label" for="subject">Subject</label>
+          <select id="subject" class="text">
+            <option value="Let's Talk">Let's Talk</option>
+            <option value="Let's Collaboration">Let's Collaboration</option>
+            <option value="I am Hiring">I am Hiring</option>
+          </select>
+        </div>
+        <div class="grup">
+          <label class="label" for="yourMessage">Your Message</label>
+          <textarea
+            id="yourMessage"
+            name="yourMessage"
+            rows="5"
+            class="yourMessage"
+          ></textarea>
+        </div>
+        <button type="submit" class="btnSubmit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
